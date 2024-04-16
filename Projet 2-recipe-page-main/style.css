@@ -1,9 +1,20 @@
 body {
     font-family: "Young Serif", 'Sans-Sérif';
+    background-color: hsl(29, 53%, 90%);
+    min-height: 100vh; 
 }
 
 h3, p, ul, li {
     font-family: "Outfit";
+}
+
+li {
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
 }
 
 h2 {
@@ -14,7 +25,55 @@ h3 {
     color: hsl(332, 51%, 32%);
 }
 
+hr {
+    color: hsl(0, 0%, 89%);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    margin: 0 1em;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-time {
+    background-color: hsl(322, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
 .card p {
     font-size: 16px;
-    color: hsl(24, 5%, 18%);
+    color:  hsl(30, 10%, 34%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit";
+    color: hsl(30, 10%, 34%);
+}
+
+tr {
+    border-bottom: 2px solid hsl(0, 0%, 89%) ;
+}
+
+td {
+    padding: 20px;
+    
+}
+
+td:nth-child(2n)  {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
